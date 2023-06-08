@@ -132,8 +132,6 @@ img{
   margin-right: 30px;
 }
 .active{
-  padding-bottom: 3px;
-  border-bottom: 3px solid #333;
 }
 .sitenav-link {
   color: #333;
@@ -142,8 +140,12 @@ img{
 .sitenav-link:hover{
   font-weight: 700;
   color: #000;
+  padding-bottom: 3px;
+  border-bottom: 3px solid #333;
 }
 .sitenav-link:active{
+  padding-bottom: 3px;
+  border-bottom: 3px solid #333;
   opacity: 0.8;
 }
 .for-help {
